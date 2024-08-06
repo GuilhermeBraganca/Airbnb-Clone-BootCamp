@@ -9,19 +9,39 @@
 /* Begin PBXBuildFile section */
 		FAC7A7272C61ACB5001D90BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7262C61ACB5001D90BE /* AppDelegate.swift */; };
 		FAC7A7292C61ACB5001D90BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7282C61ACB5001D90BE /* SceneDelegate.swift */; };
-		FAC7A72B2C61ACB5001D90BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A72A2C61ACB5001D90BE /* ViewController.swift */; };
 		FAC7A7302C61ACB8001D90BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A72F2C61ACB8001D90BE /* Assets.xcassets */; };
 		FAC7A7332C61ACB8001D90BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A7322C61ACB8001D90BE /* Base */; };
+		FAC7A7632C61B0BB001D90BE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A75C2C61B0BA001D90BE /* MainTabBarController.swift */; };
+		FAC7A7642C61B0BB001D90BE /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A75D2C61B0BA001D90BE /* ExploreViewController.swift */; };
+		FAC7A7652C61B0BB001D90BE /* FavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A75E2C61B0BA001D90BE /* FavoriteScreen.swift */; };
+		FAC7A7662C61B0BB001D90BE /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A75F2C61B0BA001D90BE /* FavoriteViewController.swift */; };
+		FAC7A7672C61B0BB001D90BE /* TravelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7602C61B0BA001D90BE /* TravelScreen.swift */; };
+		FAC7A7682C61B0BB001D90BE /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7612C61B0BA001D90BE /* TravelViewController.swift */; };
+		FAC7A7692C61B0BB001D90BE /* ExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7622C61B0BA001D90BE /* ExploreScreen.swift */; };
+		FAC7A7752C61B4C4001D90BE /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7742C61B4C4001D90BE /* MessageViewController.swift */; };
+		FAC7A7772C61B4ED001D90BE /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A7762C61B4ED001D90BE /* MessageScreen.swift */; };
+		FAC7A77B2C61B52C001D90BE /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A77A2C61B52C001D90BE /* ProfileScreen.swift */; };
+		FAC7A77D2C61B547001D90BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7A77C2C61B547001D90BE /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAC7A7232C61ACB5001D90BE /* AirBnBCloneBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirBnBCloneBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC7A7262C61ACB5001D90BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC7A7282C61ACB5001D90BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAC7A72A2C61ACB5001D90BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAC7A72F2C61ACB8001D90BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC7A7322C61ACB8001D90BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC7A7342C61ACB8001D90BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC7A75C2C61B0BA001D90BE /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FAC7A75D2C61B0BA001D90BE /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		FAC7A75E2C61B0BA001D90BE /* FavoriteScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteScreen.swift; sourceTree = "<group>"; };
+		FAC7A75F2C61B0BA001D90BE /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		FAC7A7602C61B0BA001D90BE /* TravelScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelScreen.swift; sourceTree = "<group>"; };
+		FAC7A7612C61B0BA001D90BE /* TravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		FAC7A7622C61B0BA001D90BE /* ExploreScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreScreen.swift; sourceTree = "<group>"; };
+		FAC7A7742C61B4C4001D90BE /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		FAC7A7762C61B4ED001D90BE /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
+		FAC7A77A2C61B52C001D90BE /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		FAC7A77C2C61B547001D90BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,112 @@
 		FAC7A7252C61ACB5001D90BE /* AirBnBCloneBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				FAC7A7782C61B50A001D90BE /* ProfileViewController */,
+				FAC7A7722C61B474001D90BE /* MessageViewController */,
+				FAC7A7702C61B143001D90BE /* TravelViewController */,
+				FAC7A76E2C61B128001D90BE /* FavoriteViewController */,
+				FAC7A76C2C61B110001D90BE /* ExploreViewController */,
+				FAC7A76A2C61B0BE001D90BE /* MainAirBnBController */,
 				FAC7A7262C61ACB5001D90BE /* AppDelegate.swift */,
 				FAC7A7282C61ACB5001D90BE /* SceneDelegate.swift */,
-				FAC7A72A2C61ACB5001D90BE /* ViewController.swift */,
 				FAC7A72F2C61ACB8001D90BE /* Assets.xcassets */,
 				FAC7A7312C61ACB8001D90BE /* LaunchScreen.storyboard */,
 				FAC7A7342C61ACB8001D90BE /* Info.plist */,
 			);
 			path = AirBnBCloneBootcamp;
+			sourceTree = "<group>";
+		};
+		FAC7A76A2C61B0BE001D90BE /* MainAirBnBController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A75C2C61B0BA001D90BE /* MainTabBarController.swift */,
+			);
+			path = MainAirBnBController;
+			sourceTree = "<group>";
+		};
+		FAC7A76C2C61B110001D90BE /* ExploreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A75D2C61B0BA001D90BE /* ExploreViewController.swift */,
+				FAC7A76D2C61B118001D90BE /* Screen */,
+			);
+			path = ExploreViewController;
+			sourceTree = "<group>";
+		};
+		FAC7A76D2C61B118001D90BE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A7622C61B0BA001D90BE /* ExploreScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		FAC7A76E2C61B128001D90BE /* FavoriteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A75F2C61B0BA001D90BE /* FavoriteViewController.swift */,
+				FAC7A76F2C61B135001D90BE /* Screen */,
+			);
+			path = FavoriteViewController;
+			sourceTree = "<group>";
+		};
+		FAC7A76F2C61B135001D90BE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A75E2C61B0BA001D90BE /* FavoriteScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		FAC7A7702C61B143001D90BE /* TravelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A7712C61B14E001D90BE /* Screen */,
+				FAC7A7612C61B0BA001D90BE /* TravelViewController.swift */,
+			);
+			path = TravelViewController;
+			sourceTree = "<group>";
+		};
+		FAC7A7712C61B14E001D90BE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A7602C61B0BA001D90BE /* TravelScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		FAC7A7722C61B474001D90BE /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A7732C61B48D001D90BE /* Screen */,
+				FAC7A7742C61B4C4001D90BE /* MessageViewController.swift */,
+			);
+			path = MessageViewController;
+			sourceTree = "<group>";
+		};
+		FAC7A7732C61B48D001D90BE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A7762C61B4ED001D90BE /* MessageScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		FAC7A7782C61B50A001D90BE /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A7792C61B513001D90BE /* Screen */,
+				FAC7A77C2C61B547001D90BE /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		FAC7A7792C61B513001D90BE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7A77A2C61B52C001D90BE /* ProfileScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +252,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC7A72B2C61ACB5001D90BE /* ViewController.swift in Sources */,
 				FAC7A7272C61ACB5001D90BE /* AppDelegate.swift in Sources */,
+				FAC7A7632C61B0BB001D90BE /* MainTabBarController.swift in Sources */,
+				FAC7A7682C61B0BB001D90BE /* TravelViewController.swift in Sources */,
 				FAC7A7292C61ACB5001D90BE /* SceneDelegate.swift in Sources */,
+				FAC7A7752C61B4C4001D90BE /* MessageViewController.swift in Sources */,
+				FAC7A7642C61B0BB001D90BE /* ExploreViewController.swift in Sources */,
+				FAC7A7652C61B0BB001D90BE /* FavoriteScreen.swift in Sources */,
+				FAC7A77B2C61B52C001D90BE /* ProfileScreen.swift in Sources */,
+				FAC7A7772C61B4ED001D90BE /* MessageScreen.swift in Sources */,
+				FAC7A7672C61B0BB001D90BE /* TravelScreen.swift in Sources */,
+				FAC7A77D2C61B547001D90BE /* ProfileViewController.swift in Sources */,
+				FAC7A7692C61B0BB001D90BE /* ExploreScreen.swift in Sources */,
+				FAC7A7662C61B0BB001D90BE /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
